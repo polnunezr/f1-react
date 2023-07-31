@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
-import Video from "../video/F1.mp4";
-import Ogg from "../video/F1.ogg";
+import Video from "../videos/F1.mp4";
+import Ogg from "../videos/F1.ogg";
 export function Home() {
   return (
     <div>

@@ -1,6 +1,6 @@
 let teams = [
   {
-    id: 1,
+    id: 11,
     season: 2022,
     teams: [
       {
@@ -52,6 +52,52 @@ let teams = [
         team: "Haas F1 Team",
         img: "https://cdn-1.motorsport.com/images/mgl/Y99AMEbY/s8/haas-vf-22-1.jpg",
         car: "https://www.youtube.com/watch?v=2fWtG1vMpjs",
+      },
+    ],
+  },
+  {
+    id: 12,
+    season: 2023,
+    teams: [
+      {
+        team: "Red Bull",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/red-bull-racing.png.transform/4col/image.png",
+      },
+      {
+        team: "Mercedes",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/mercedes.png.transform/4col/image.png",
+      },
+      {
+        team: "Ferrari",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/ferrari.png.transform/4col/image.png",
+      },
+      {
+        team: "McLaren",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/mclaren.png.transform/4col/image.png",
+      },
+      {
+        team: "Alpha Tauri",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/alphatauri.png.transform/4col/image.png",
+      },
+      {
+        team: "Alpine",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/alpine.png.transform/4col/image.png",
+      },
+      {
+        team: "Aston Martin",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/aston-martin.png.transform/4col/image.png",
+      },
+      {
+        team: "Williams",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/williams.png.transform/4col/image.png",
+      },
+      {
+        team: "Alfa Romeo",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/alfa-romeo.png.transform/4col/image.png",
+      },
+      {
+        team: "Haas F1 Team",
+        img: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2023/haas-f1-team.png.transform/4col/image.png",
       },
     ],
   },

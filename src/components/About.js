@@ -35,14 +35,13 @@ export function About() {
           <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
             {season.teams.map((team) => (
               <div className="col sm-1 mt-2">
-                <Card style={{ width: "18rem" }}>
-                  <Card.Img variant="top" src={team.img} />
+                <Card style={{ width: "18rem", height: "20rem" }}>
+                  <Card.Img src={team.img} />
                   <Card.Body>
                     <Card.Title key={team.id}>
                       <h3>{team.team}</h3>
                     </Card.Title>
-                    <Card.Text>{team.team}</Card.Text>
-                    <Card.Text>{team.points}</Card.Text>
+                    <Card.Text>{team.chasis}</Card.Text>
                   </Card.Body>
                 </Card>
               </div>
